@@ -1,11 +1,15 @@
 import React from 'react';
+import './App.css';
+import Header from './Components/Header.js';
+import Guitar from './Components/Guitar.js';
 
-const App = () => {
+function App() {
     return (
-        <div>
-            <h1>App</h1>
-        </div>
-    )
+      <div className="App">
+          <Header />
+          <Guitar />
+      </div>  
+    );
 }
 
 export default App;
