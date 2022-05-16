@@ -1,8 +1,13 @@
 import React from "react";
+import Settings from "./Settings";
 
-function Header(){
+
+function Header() {
     return(
-        <header><h1>Fretzy</h1></header>
+        <div>
+            <header><h1>Fretzy</h1></header>
+            <Settings />
+        </div>
     )
 }
 

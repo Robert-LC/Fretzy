@@ -1,7 +1,8 @@
 import React from 'react';
 import { FaArrowDown, FaArrowUp } from 'react-icons/fa';
 
-function GuitarBody({ currFrets }){
+//Area where the strings can be strummped Up/Down to create chord and note sounds.
+function GuitarBody({ currFrets }) {
 
     return (
         <div className="guitar-body-container">

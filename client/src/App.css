@@ -3,9 +3,11 @@
     padding:0;
     box-sizing:border-box;
 }
+
 body {
   background:#192129;
 }
+
 .App {
     max-width:800px;
     padding:0 16px;
@@ -13,12 +15,14 @@ body {
     font-family: 'Verdana', 'Helvetica', sans-serif;
     color:#f4f4f4;
 }
+
 header {
     padding:16px 0;
     font-size:20px;
     text-transform:uppercase;
 }
-.guitar {
+
+/* .guitar {
     padding:16px;
     background:#687a8c;
 }
@@ -103,4 +107,4 @@ header {
     height:0;
     position:absolute;
     opacity:0;
-}
+} */
